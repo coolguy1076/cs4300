@@ -1,1 +1,1 @@
-web: PYTHONPATH=/opt/render/project/src gunicorn movie_theater_booking.mysite.wsgi --bind 0.0.0.0:$PORT
+web: PYTHONPATH=$PYTHONPATH:/opt/render/project/src/movie_theater_booking gunicorn movie_theater_booking.mysite.wsgi --bind 0.0.0.0:$PORT
