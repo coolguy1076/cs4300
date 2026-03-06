@@ -23,11 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-sx71bm=qr-aia&es*jxk+&*oc+^0y$jqcf_aghj7ovn9!5$z4u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "editor-mbieker2-21.devedu.io",
     "app-mbieker2-21.devedu.io",
+    "movie_theater_booking.onrender.com",
 ]
 
 
