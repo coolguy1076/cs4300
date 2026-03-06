@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "editor-mbieker2-21.devedu.io",
+    "app-mbieker2-21.devedu.io",
 ]
 
 
