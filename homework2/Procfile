@@ -1,1 +1,0 @@
-web: movie_theater_booking.mysite.wsgi --bind 0.0.0.0:$PORT
